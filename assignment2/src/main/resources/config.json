@@ -1,0 +1,30 @@
+{
+  "map": "src/main/resources/map.txt",
+  "numLives": 3,
+  "levels": [
+    {
+      "levelNo": 1,
+      "pacmanSpeed": 3.0,
+      "ghostSpeed":{
+        "chase": 1.0,
+        "scatter": 1.0
+      },
+      "modeLengths": {
+        "chase" : 10,
+        "scatter": 20
+      }
+    },
+    {
+      "levelNo": 2,
+      "pacmanSpeed": 2.0,
+      "ghostSpeed":{
+        "chase": 1.2,
+        "scatter": 1.3
+      },
+      "modeLengths": {
+        "chase" : 5,
+        "scatter": 5
+      }
+    }
+  ]
+}
